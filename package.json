@@ -1,0 +1,35 @@
+{
+  "name": "Footbook",
+  "version": "1.0.0",
+  "description": "An attempt to blow FB out of the water",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony app.js",
+    "test": "./node_modules/mocha/bin/mocha -u bdd -R spec test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcusoftnet/Footbook.git"
+  },
+  "keywords": [
+    "koa",
+    "demo",
+    "SocialMedia"
+  ],
+  "author": "Marcus Hammarberg @marcusofnet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcusoftnet/Footbook/issues"
+  },
+  "homepage": "https://github.com/marcusoftnet/Footbook",
+  "dependencies": {
+    "koa": "~0.8.1",
+    "koa-route": "~1.1.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1"
+  },
+  "engines" : {
+    "node" : ">11.9"
+  }
+}
